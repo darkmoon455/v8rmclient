@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "id": "myclient",
+    "version": "1.0.0",
+    "name": "My Client",
+    "description": "Мой клиент с Baritone",
+    "authors": ["твоёимя"],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/myclient/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["com.myclient.MyClient"]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.22",
+        "minecraft": "1.16.5"
+    }
+}
